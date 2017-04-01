@@ -16,7 +16,8 @@ area = scrapy.Field()
 '''
 class CrowlingItem(scrapy.Item):
     # define the fields for your item here like:
-    store_name = scrapy.Field()
-    area = scrapy.Field()
-    tel_num = scrapy.Field()
-    hp_url = scrapy.Field()
+    coin_name = scrapy.Field()
+    coin_price = scrapy.Field()
+    coin_pic = scrapy.Field()
+    fin_date = scrapy.Field()
+    pay_count = scrapy.Field()
